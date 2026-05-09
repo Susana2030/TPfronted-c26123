@@ -114,12 +114,7 @@ footer .footer-list {
   color: rgb(235, 16, 118);
 }
 /* HOME*/
-.parrafo {
-  width: 80%;
-  text-align: center;
-  font-size: 2rem;
-  padding: 3rem;
-}
+
 .contenedor-tarjetas {
   margin-top: 2rem;
   display: flex;
@@ -188,7 +183,7 @@ footer .footer-list {
   resize: vertical;
 }
 
-@media (max-wdth: 600px) {
+@media (max-width: 600px) {
   header,
   footer {
     flex-direction: column;
