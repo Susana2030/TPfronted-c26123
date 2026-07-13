@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "nombre": "Topper Caricatura 1",
+    "img": "img/topper caricatura.jpeg",
+    "precio": 13000
+  },
+  {
+    "id": "2",
+    "nombre": "Album los Simpson personalizados 2",
+    "img": "../img/album los simpson.jpg",
+    "precio": 10000
+  },
+  {
+    "id": "3",
+    "nombre": "Topper para cupcakes personalizados 3",
+    "img": "img/topper cupcake.jpg",
+    "precio": 10000
+  },
+  {
+    "id": "4",
+    "nombre": "Topper personalizado con Número 4",
+    "img": "img/topper personalizado numero.jpg",
+    "precio": 13000
+  },
+  {
+    "id": "5",
+    "nombre": "Raspadita para baby shower 5",
+    "img": "img/WhatsApp Image 2026-05-09 at 01.34.15.jpeg",
+    "precio": 10000
+  }
+]

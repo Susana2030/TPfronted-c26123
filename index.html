@@ -25,10 +25,14 @@
             <a href="./index.html">Inicio</a>
           </li>
           <li>
-            <a href="./page/contacto.html">Contacto</a>
+            <a href="./pages/contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono">🛒
+              <span id= "contador-carrito">0</span></a>
           </li>
         </ul>
-      </nav>
+      </nav>  
     </header>
     <main>
       <h1 class="titulo-home text-secondary">
@@ -47,79 +51,12 @@
 
       <section>
         <h2 class="titulo-productos">Nuestros productos</h2>
-        <div class="contenedor-tarjetas">
-          <article class="card text-dark ">
-            <img
-              src="./img/topper caricatura.jpeg"
-              alt="topper de caricatura"
-            />
-            <h3>Topper Caricatura</h3>
-            <p>Topper para torta en estilo caricatura</p>
-            <p>Precio: $13.000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
 
-          <article class="card text-dark ">
-            <img
-              src="./img/album los simpson.jpg"
-              alt="Album personalizado los Simpson"
-            />
-            <h3>Album los simpson personalizados</h3>
-            <p>
-              album mas espacio para 24 fotos, Disponible en formato
-              físico o editable.
-            <p>Precio: $10.000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-
-          <article class="card text-dark ">
-            <img src="./img/topper cupcake.jpg" alt="topper para cupcake" />
-            <h3>Topper para cupcakes personalizados</h3>
-            <p>
-              Topper para cupcakes personalizado ,pack de 20 unidades.
-            </p>
-            <p>Precio: $10.000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-
-          <article class="card text-dark ">
-            <img
-              src="./img/topper personalizado numero.jpg"
-              alt="topper personalizao con numero"
-            />
-            <h3>Topper personalizado con Numero</h3>
-            <p>
-              Topper personalizado con número y foto.
-            </p>
-            <p>Precio: $13.000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-
-          <article class="card text-dark">
-            <img
-              src="./img/WhatsApp Image 2026-05-09 at 01.34.15.jpeg"
-              alt="Raspadita para Baby shower"
-            />
-            <h3>Raspadita para baby shower</h3>
-            <p>Raspa y fijte si ganaste.</p>
-            <p>Precio: $10.000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-        </div>
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas"> </div>
       </section>
     </main>
     <footer>
-      <p>Sitio realizado por Polo Susana Talento Tech comision 26123</p>
+      <p>Sitio realizado por Polo Susana.Talento Tech comision 26123</p>
       <nav>
         <ul class="footer-list">
           <li>
@@ -134,6 +71,7 @@
              </li>
         </ul>
       </nav>
-    </footer>
+    </footer> 
+    <script  src="./js/index.js" type="module"></script>
   </body>
 </html>

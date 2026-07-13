@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARRITO</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Impresiones Cocholate</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <a class="logo" href="../index.html">
+          <img src="../img/logo.png" />
+        </a>
+      </div>
+
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a href="./carrito.html" class="carrtito-icono"
+              >🛒 <span id="contador-carrito">0</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>CARRITO DE COMPRAS</h1>
+      <section id="contenedor-carrito" class="contenedor-tarjetas"></section>
+      <!-- Productos del carrito-->
+      <!--botones de eliminar y finaliza compra agregar en js-->
+      <section>
+        <div class="acciones-carrito" id="acciones-carrito"></div>
+      </section>
+      <!--resumen del carrito-->
+      <section id="resumen-carrito" class="resumen-carrito"></section>
+    </main>
+    <footer class="footer">
+      <p>Sitio realizado por Polo Susana.Talento Tech comision 26123</p>
+      <nav>
+        <ul class="footer-list">
+          <a href="https://wa.me/5491130013510" target="_blank">
+            <img src="../img/whatsapp.png" alt="logo de whatsapp" /></li>
+            </a>
+          <li>
+            <a href="https://www.instagram.com/cocholate2020/">
+            <img src="../img/instagram.png" alt="logo de instagram" />
+          
+             </a>
+             </li>
+        </ul>
+      </nav>
+    </footer>
+    <!--agregar type y alcance al carrtio.js-->
+    <script type="module" src="../js/carrito.js" "></script>
+  </body>
+</html>
