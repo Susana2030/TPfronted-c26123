@@ -8,7 +8,7 @@
   {
     "id": "2",
     "nombre": "Album los Simpson personalizados 2",
-    "img": "../img/album los simpson.jpg",
+    "img": "img/album los simpson.jpg",
     "precio": 10000
   },
   {
